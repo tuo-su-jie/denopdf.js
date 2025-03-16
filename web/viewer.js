@@ -3402,7 +3402,7 @@ const PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 let validateFileURL;
 {
-  const HOSTED_VIEWER_ORIGINS = ["null", "http://alist-org.github.io", "https://alist-org.github.io", "https://alist.nn.ci"];
+  const HOSTED_VIEWER_ORIGINS = ["null", "http://alistpdf.deno.dev/", "https://alistpdf.deno.dev", "http://pdf.makkle.com", "https://pdf.makkle.com"];
 
   validateFileURL = function (file) {
     if (!file) {
